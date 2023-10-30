@@ -1,0 +1,13 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: rebeccapurple;
+  /* clip-path: circle(50% at 20px 10%); */
+  clip-path: path("M338 1C247 139.667 70.4 333.8 92 1L5 352L178 376L338 1Z");
+  transition: all 2s ease;
+}
+
+.container:hover {
+  /* clip-path: circle(100%); */
+  clip-path: path("M338 1C247 139.667 70.4 333.8 1 1L5 352L178 376L338 1Z");
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: 500px;
+  height: 500px;
+  border: 5px solid rebeccapurple;
+  perspective: 100px;
+}
+
+.shape {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    transform: rotateX(15deg);
+}

@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.item h1,
+.item h2,
+.item h3,
+.item p {
+  color: blue;
+}
+
+.item :is(h1, h2, h4, p) {
+  color: red;
+}
+/* .item :where(h1,h2,h4,p){
+    color: red;
+} */
